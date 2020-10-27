@@ -24,7 +24,7 @@ game = {
   au: [false, false, false],  //automation upgrades
   ta: [0, false, false],  //toggle automation
   ru0P: new OmegaNum(4),  //effect of the first repeatable upgrade
-  ru2C: [new OmegaNum(1e10), new OmegaNum(1e20), new OmegaNum(1e30), new OmegaNum(1e40), new OmegaNum(1e55), new OmegaNum(1e80), new OmegaNum(1e150), new OmegaNum(OmegaNum.pow(2,1024)), new OmegaNum("e1000"), new OmegaNum("e6969")],  //cost of the third repeatable upgrade
+  ru2C: [new OmegaNum(1e10)/*, new OmegaNum(1e20), new OmegaNum(1e30), new OmegaNum(1e40), new OmegaNum(1e55), new OmegaNum(1e80), new OmegaNum(1e150), new OmegaNum(OmegaNum.pow(2,1024)), new OmegaNum("e1000"), new OmegaNum("e6969")*/],  //cost of the third repeatable upgrade / get inline commented lol
   theme: 0,
   frames: 0,
   speedrunTime: 9e7,
@@ -1291,7 +1291,7 @@ function hardReset() {
   game.ru[3] = new OmegaNum(9);
   game.ruC[0] = new OmegaNum(5000);
   game.ruC[1] = new OmegaNum(1000);
-  game.ru2C = [new OmegaNum(1e10), new OmegaNum(1e20), new OmegaNum(1e30), new OmegaNum(1e40), new OmegaNum(1e55), new OmegaNum(1e80), new OmegaNum(1e150), new OmegaNum(OmegaNum.pow(2,1024)), new OmegaNum("e1000"), new OmegaNum("e6969")];
+  game.ru2C = [new OmegaNum(1e10)/*, new OmegaNum(1e20), new OmegaNum(1e30), new OmegaNum(1e40), new OmegaNum(1e55), new OmegaNum(1e80), new OmegaNum(1e150), new OmegaNum(OmegaNum.pow(2,1024)), new OmegaNum("e1000"), new OmegaNum("e6969") nope.avi*/];
   game.ruC[3] = new OmegaNum("eee10");
   game.u[0] = false;
   game.u[1] = false;
